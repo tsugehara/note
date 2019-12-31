@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "textlint -c .textlintrc ./shinonomekazan ./README.md"
+    "test": "textlint -c .textlintrc ./**/*.md"
   },
   "author": "tsugehara",
   "license": "MIT",
